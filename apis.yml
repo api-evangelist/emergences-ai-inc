@@ -1,8 +1,30 @@
 aid: emergences-ai-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emergences-ai-inc.png
 name: EMERGENCES AI, INC.
-description: EMERGENCES AI, INC. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  EMERGENCES AI, INC. (Emergences Labs) builds human competency models,
+  assessment, and training solutions for the AI era, focused on defining the
+  transformative skills whose value compounds rather than erodes as AI advances.
+  Its products include NeoWork, real-world task assessments for recruiting and
+  identifying top performers in AI-native roles and for reskilling; NeoHuman,
+  deliberate-practice training that teaches professionals and students effective
+  human-AI collaboration through real enterprise work; and an expert-curated
+  Data offering of annotated professional workflow trajectories for agent
+  reinforcement learning and domain-specific benchmarks. The company was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. It publishes a public website with research, blog, careers, and legal
+  pages, but does not currently expose a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/emergences-ai-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Assessment
+- Training
+- Workforce
+- Skills
+- Reskilling
+- Human-AI Collaboration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://emergences.ai
+- type: Blog
+  url: https://emergences.ai/blog
+- type: Research
+  url: https://emergences.ai/research
+- type: About
+  url: https://emergences.ai/about
+- type: Careers
+  url: https://emergences.ai/careers
+- type: PrivacyPolicy
+  url: https://emergences.ai/legal/privacy-policy
+- type: TermsOfService
+  url: https://emergences.ai/legal/terms-of-use
+- type: DomainSecurity
+  url: security/emergences-ai-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
