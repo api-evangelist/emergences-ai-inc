@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emergences-ai-inc.png
-name: EMERGENCES AI, INC.
+name: EMERGENCES AI
 description: >-
   EMERGENCES AI, INC. (Emergences Labs) builds human competency models,
   assessment, and training solutions for the AI era, focused on defining the
@@ -49,7 +49,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Assessment
 - Training
 - Workforce
@@ -66,6 +66,7 @@ tags_raw:
 - Skills
 - Reskilling
 - Human-AI Collaboration
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -94,3 +95,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: EMERGENCES AI, INC.
